@@ -1880,30 +1880,8 @@ layout / search_result
   vertical-align: inherit;
 }
 .l-order-production-sp .order-production-inner input[type="date"] {
-  width: 100%;
-  height: 40px;
-  position: relative;
-}
-.l-order-production-sp .order-production-inner input[type="date"]:before {
-  position: absolute;
-  top: 13px;
-  left: 10px;
-  content: attr(data-date);
-  display: inline-block;
-  color: black;
-}
-.l-order-production-sp .order-production-inner input[type="date"]::-webkit-datetime-edit, .l-order-production-sp .order-production-inner input::-webkit-inner-spin-button, .l-order-production-sp .order-production-inner input::-webkit-clear-button {
-  display: none;
-}
-.l-order-production-sp .order-production-inner input[type="date"]::-webkit-calendar-picker-indicator {
-  position: absolute;
-  top: 13px;
-  right: 10px;
-  color: black;
-  opacity: 1;
-  display: block;
-  background: url(../../PC/img/png_icons/arrow.png) no-repeat;
-  border-width: thin;
+  width: 50%;
+  height: auto;
 }
 .l-order-production-sp .order-production-inner .form-top {
   width: 100%;
